@@ -1,8 +1,6 @@
 import os.path as path
 import skimage.io as io
-import math
 import numpy as np
-import scipy as sp
 from skimage import color
 from skimage import util
 import matplotlib.pyplot as plt
