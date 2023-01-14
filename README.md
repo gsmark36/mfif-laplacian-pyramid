@@ -1,5 +1,5 @@
 # Multi-focus image fusion based on Laplacian pyramid
-Packages used: **numpy**, **skimage**, **matplotlib**.  
+Packages used: **numpy**, **skimage**, **scipy**, **matplotlib**.  
 The algorithm follows the steps:  
 •	Decompose two input images into Laplacian pyramids.  
 •	Generate the top level of fused pyramid by maximum region information rule.  
