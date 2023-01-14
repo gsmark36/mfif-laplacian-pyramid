@@ -35,7 +35,7 @@ def gausspyr_expand(x, sz=None, kernel_a=0.4):
   
     # Size of the output image
     if sz is None:
-      sz = (x.shape[0]*2, x.shape[1]*2)
+        sz = (x.shape[0]*2, x.shape[1]*2)
     
     x = x.reshape(x.shape[0], x.shape[1], -1) # Add an extra dimension if grayscale
     y = np.zeros([sz[0], sz[1], x.shape[2]]) # Store the result in this array
