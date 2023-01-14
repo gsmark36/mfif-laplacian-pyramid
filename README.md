@@ -1,4 +1,4 @@
-# Multi-focus image fusion method based on Laplacian pyramid
+# Multi-focus image fusion based on Laplacian pyramid
 The algorithm follows the steps:  
 •	Decompose two input images into Laplacian pyramids.  
 •	Generate the top level of fused pyramid by maximum region information rule.  
